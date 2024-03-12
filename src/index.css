@@ -1,0 +1,32 @@
+:root {
+  --fs-100: 8px;
+  --fs-150: 10px;
+  --fs-200: 12px;
+  --fs-300: 14px;
+  --fs-400: 16px;
+  --fs-500: 20px;
+  --fs-600: 21px;
+  --fs-700: 30px;
+  --fs-800: 36px;
+  --fs-900: 45px;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 800;
+
+  --bg-color: #FFFFFF;
+  --text-color: #000000;
+  --grey: #808080;
+  --light-grey: #FAFAFA;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+}

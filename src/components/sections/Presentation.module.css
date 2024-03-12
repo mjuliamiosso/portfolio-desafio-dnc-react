@@ -1,0 +1,8 @@
+.presentation h1{
+    font-family: "DotGothic16", sans-serif;
+    font-weight: var(--fw-regular);
+    text-align: center;
+    font-size: var(--fs-900);
+
+    margin-top: -6%;
+}

@@ -1,0 +1,14 @@
+.contact{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.contact ul{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+    font-size: 35px;
+    gap: 80px;
+}

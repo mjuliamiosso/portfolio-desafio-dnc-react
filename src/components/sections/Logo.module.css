@@ -1,0 +1,13 @@
+.logo{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo p{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-800);
+
+    margin-top: 30px;
+}

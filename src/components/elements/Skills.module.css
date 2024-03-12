@@ -1,0 +1,27 @@
+.skills{
+    display: flex;
+    gap: 20px;
+    max-width: 278px;
+    width: 100%;
+    padding: 15px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.25);
+    margin-top: 60px;
+}
+
+.skills div{
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.skills div h4{
+    font-size: var(fs-400);
+    font-weight: var(--fw-bold);
+    padding-left: 20px;
+}
+
+.skills div p{
+    font-size: var(--fs-150);
+    font-weight: var(--fw-light);
+    padding-left: 20px;
+}

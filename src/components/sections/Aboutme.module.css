@@ -1,0 +1,63 @@
+.aboutme{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 100px;
+}
+
+.aboutme h2{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    position: relative;
+}
+
+.aboutme h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -50%;
+    border: 3px solid black;
+    width: 5%;
+}
+
+.aboutmeContainer{
+    margin-top: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.aboutmeContainer h3{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-regular);
+    margin-bottom: 10px;
+}
+
+.aboutmeContainer p{
+    font-size: var(--fs-300);
+    font-weight: var(--fw-light);
+    line-height: 19.12px;
+}
+
+.linkContainer {
+    margin-top: 10px;
+    display: flex;
+    gap: 7px;
+}
+
+.linkContainer p{
+    font-weight: var(--fw-regular);
+}
+
+.aboutmeSkills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutmeExperiences{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
