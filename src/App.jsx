@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Logo from './components/sections/Logo'
 import Navbar from './components/sections/Navbar'
@@ -8,8 +7,6 @@ import Aboutme from './components/sections/Aboutme'
 import Contact from './components/sections/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Logo></Logo>
